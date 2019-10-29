@@ -28,10 +28,6 @@ addPropertyControls(InputStepper, {
     title: "Size",
     options: ["small", "normal"],
     optionTitles: ["Small", "Normal"]
-  },
-  inlineLabel: {
-    type: ControlType.Boolean,
-    title: "Inline Label"
   }
 });
 
