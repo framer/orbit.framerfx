@@ -1,12 +1,12 @@
 import * as React from "react";
 import { Frame, addPropertyControls, ControlType } from "framer";
-import { InputField as _InputField } from "@kiwicom/orbit-components";
+import { InputStepper as _InputStepper } from "@kiwicom/orbit-components";
 
-export function InputField(props) {
-  return <_InputField {...props} />;
+export function InputStepper(props) {
+  return <_InputStepper {...props} />;
 }
 
-addPropertyControls(InputField, {
+addPropertyControls(InputStepper, {
   disabled: {
     type: ControlType.Boolean,
     title: "Disabled"
@@ -19,19 +19,9 @@ addPropertyControls(InputField, {
     type: ControlType.Boolean,
     title: "Error"
   },
-  placeholder: {
-    type: ControlType.String,
-    title: "Placeholder"
-  },
   label: {
     type: ControlType.String,
     title: "Label"
-  },
-  type: {
-    type: ControlType.Enum,
-    title: "Type",
-    options: ["text", "number", "email", "password", "passportid"],
-    optionTitles: ["Text", "Number", "Email", "Password", "Passport"]
   },
   size: {
     type: ControlType.Enum,
@@ -45,14 +35,12 @@ addPropertyControls(InputField, {
   }
 });
 
-InputField.defaultProps = {
-  height: 65,
+InputStepper.defaultProps = {
+  height: 45,
   width: 300,
   disabled: false,
-  placeholder: "email@address.com",
-  label: "Email Address",
+  label: "",
   size: "normal",
-  type: "email",
   required: false,
   inlineLabel: false,
   error: false
