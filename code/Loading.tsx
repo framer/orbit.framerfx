@@ -21,12 +21,17 @@ addPropertyControls(Loading, {
       "pageLoader",
       "inlineLoader"
     ]
+  },
+  text: {
+    type: ControlType.String,
+    title: "Text"
   }
 });
 
 Loading.defaultProps = {
   height: 100,
-  width: 100,
+  width: 320,
   loading: true,
-  type: "buttonLoader"
+  type: "pageLoader",
+  text: "Please wait, content of the page is loading..."
 };
