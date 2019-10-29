@@ -1,0 +1,18 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "0a4da6fc-5abc-4058-9b28-a4778cc39041"
+	},
+	"author": "Addison Schultz",
+	"dependencies": {
+		"@kiwicom/orbit-components": "^0.65.0"
+	}
+}
