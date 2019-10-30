@@ -40,6 +40,11 @@ csstype@^2.2.0:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.1.tgz#4cfbf637a577497036ebcd7e32647ef19a0b8076"
   integrity sha512-wv7IRqCGsL7WGKB8gPvrl+++HlFM9kxAM6jL1EXNPNTshEJYilMkbfS2SnuHha77uosp/YVK0wAp2jmlBzn1tg==
 
+framer@1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/framer/-/framer-1.1.4.tgz#0070fe9320091496b3f0e1d9961570194223e54e"
+  integrity sha512-1ypGe07RAkjv/FDB8MifTaBu4MqEtmGdvkhlyOiJMITftFobS8iwue3gRFuRdjEjSGKgF4GWAqxoc90K/EuL1w==
+
 ramda@^0.26.1:
   version "0.26.1"
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.26.1.tgz#8d41351eb8111c55353617fc3bbffad8e4d35d06"
