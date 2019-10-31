@@ -3,7 +3,13 @@ import { Frame, addPropertyControls, ControlType } from "framer";
 import { Button as _Button } from "@kiwicom/orbit-components";
 
 export function Button(props) {
-  return <_Button {...props}>{props.text}</_Button>;
+  console.log(_Button);
+
+  return (
+    <_Button {...props} title={"title"}>
+      {props.text}
+    </_Button>
+  );
 }
 
 addPropertyControls(Button, {
