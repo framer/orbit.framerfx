@@ -2,7 +2,8 @@ import * as React from "react";
 import { Frame, addPropertyControls, ControlType } from "framer";
 import { Collapse as _Collapse } from "@kiwicom/orbit-components";
 
-export function Collapse(props) {
+// @TODO add exported function so it shows in the components panel
+function Collapse(props) {
   // undefined import
   console.log(_Collapse);
 

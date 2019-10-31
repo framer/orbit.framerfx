@@ -3,7 +3,6 @@ import { Frame, addPropertyControls, ControlType } from "framer";
 import {
   PricingTable as _PricingTable,
   PricingTableItem as _PricingTableItem,
-  Button as _Button,
   List as _List,
   ListItem as _ListItem,
   Tooltip as _Tooltip,
@@ -14,11 +13,7 @@ import { Check } from "@kiwicom/orbit-components/lib/icons";
 export function PricingTable(props) {
   return (
     <_PricingTable>
-      <_PricingTableItem
-        badge={"Polular"}
-        price={"€749"}
-        action={<_Button>Continue with Basic</_Button>}
-      >
+      <_PricingTableItem badge={"Polular"} price={"€749"}>
         <_List type="separated">
           <_ListItem label="Kiwi.com services" icon={<Check />}>
             <_Tooltip
